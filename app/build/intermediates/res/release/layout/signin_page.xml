@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/signinpage" >
+    <!--<LinearLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/new_box"
+        android:orientation="horizontal" >
+         </LinearLayout>-->
+
+    <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="100dp"
+            android:layout_height="61dp"
+            android:layout_weight="2"
+            android:background="@android:color/transparent"
+        android:textColor="@color/blue"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+   <!-- <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true">
+    </LinearLayout>-->
+
+        <EditText
+            android:id="@+id/edtsignusername"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+
+            android:ems="10"
+            android:background="#ff369dff"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/btnlogin"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:hint="Username"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#ff369dff"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/edtsignpassword"
+        android:layout_below="@+id/edtsignusername"
+        android:hint="Password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
+
+
+</RelativeLayout>
+<!-- From: file:/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/src/main/res/layout/signin_page.xml -->

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Butterflyblue" >
+
+     <LinearLayout
+        android:id="@+id/headerarrest"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+     
+        android:layout_alignParentTop="true"
+        android:background="@color/grey"
+        android:orientation="horizontal" >
+        
+        <Button
+            android:id="@+id/btnback"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@android:color/transparent"
+            android:text="@string/app_back"
+            android:textColor="@color/blue" />
+        
+          <TextView
+            android:id="@+id/txthead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/arrest"
+            android:textColor="@color/black" />
+    </LinearLayout>
+     <LinearLayout 
+        android:id="@+id/info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerarrest"
+          android:orientation="vertical"
+          >
+        <TextView 
+            android:id="@+id/texthead"
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    
+        android:text="@string/summary"
+           android:layout_gravity="center" 
+        android:textColor="@color/white"/>
+        <TextView
+         android:id="@+id/editText1"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/info"
+         android:layout_marginLeft="14dp"
+         android:layout_marginTop="38dp"
+         android:ems="10"
+         android:ellipsize="end"
+         android:singleLine="false"
+         android:inputType="textMultiLine" 
+            android:text="I am getting Arrested!I need a lawyer."
+            android:background="@color/white"
+            android:textColor="@color/blue"
+            android:lines="7">
+         <requestFocus />
+     </TextView>
+
+        <LinearLayout
+            android:id="@+id/details"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btntick"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/editcomment"
+                
+                android:background="@drawable/msg_tick_box2" />
+
+            <TextView
+                android:id="@+id/textoption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/btntick"
+                android:layout_alignBottom="@+id/btntick"
+                android:layout_marginLeft="38dp"
+                android:layout_toRightOf="@+id/btntick"
+                android:textColor="@color/white"
+                android:text="@string/contact"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+         <LinearLayout
+            android:id="@+id/details2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+           
+   
+
+    <Button
+        android:id="@+id/btntick2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/btntick"
+      
+        android:layout_toLeftOf="@+id/textoption"
+        android:background="@drawable/msg_tick_box"
+        android:onClick="msgone" />
+     <TextView
+        android:id="@+id/textoption2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     
+        android:text="@string/econtact"
+          android:layout_marginLeft="38dp"
+                android:layout_toRightOf="@+id/btntick2"
+                android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+     <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/info"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical" 
+         android:visibility="invisible" >
+
+        
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp" >
+
+            <TextView
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               
+               
+                android:text="@string/firstname"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/edtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginLeft="32dp"
+                android:inputType="textPersonName" 
+                android:background="@drawable/rectangiular"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+           android:layout_marginTop="4dp"
+            >
+            <TextView 
+                 android:id="@+id/txtlast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+               
+                android:text="@string/lastname"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/edtlast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="2dp"
+               android:background="@drawable/rectangiular"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        
+    </LinearLayout>
+      <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:layout_marginTop="4dp" >
+            <TextView 
+                 android:id="@+id/txtstate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+              
+                android:text="@string/state"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/edtstate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="63dp"
+                
+                android:background="@drawable/rectangiular"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            </LinearLayout>
+             <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:layout_marginTop="4dp" >
+             <TextView 
+                 android:id="@+id/txtphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white"
+                android:text="@string/cellphone" />
+             <EditText
+                android:id="@+id/edtphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:ems="10"
+                android:background="@drawable/rectangiular"
+                android:inputType="phone" />
+                 
+            </LinearLayout>
+             <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"  
+            android:layout_marginTop="4dp">
+              <TextView 
+                 android:id="@+id/txthphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+               
+                android:text="@string/homephone"
+                android:textColor="@color/white" />
+             <EditText
+                android:id="@+id/edthphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:ems="10"
+                android:background="@drawable/rectangiular"
+                android:inputType="phone" />
+             </LinearLayout>
+             <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"  
+            android:layout_marginTop="4dp">
+               <TextView 
+                 android:id="@+id/txtbphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                
+                android:text="@string/businessphone"
+                android:textColor="@color/white" />
+             <EditText
+                android:id="@+id/edtbphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ems="10"
+                android:background="@drawable/rectangiular"
+                android:inputType="phone" />
+             
+             </LinearLayout>
+             <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"  
+            android:layout_marginTop="4dp">
+              <TextView 
+                 android:id="@+id/txtemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+               
+                android:text="@string/email"
+                android:textColor="@color/white" />
+             <EditText
+                android:id="@+id/edtemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:ems="10"
+                android:background="@drawable/rectangiular"
+                android:inputType="textEmailAddress" />
+             
+             </LinearLayout>
+
+
+   
+ 
+</LinearLayout>
+
+     <RelativeLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_below="@+id/linear"
+         android:layout_marginLeft="98dp"
+         android:layout_marginTop="18dp" >
+             <Button
+            android:id="@+id/btnasubmit"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+             android:background="@color/darkblue"
+            android:text="@string/submit" 
+            android:layout_alignParentLeft="true"
+             android:layout_weight="1"
+             android:textColor="@color/white"/>
+               <Button
+            android:id="@+id/btnaaddevidence"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:background="@color/darkblue"
+            android:text="@string/addevidence" 
+      
+              android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:textColor="@color/white"/>
+             
+     </RelativeLayout>
+
+</RelativeLayout>
+<!-- From: file:/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/src/main/res/layout/arrest_page.xml -->

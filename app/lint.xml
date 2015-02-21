@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="DuplicateIds">
+        <ignore path="res/layout/emergency_page.xml" />
+    </issue>
+    <issue id="ExtraText">
+        <ignore path="res/layout/sign_up.xml" />
+    </issue>
+</lint>

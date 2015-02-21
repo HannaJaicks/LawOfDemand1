@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name ="white" type="color">#FFFFFF</item>
+     <item name ="black" type="color">#000000</item>
+       <item name ="blue" type="color">#12A5F4</item>
+        <item name ="darkblue" type="color">#3b5998</item>
+          <item name ="Lightblue" type="color"> #2E2EFE</item>
+         <item  name="grey" type="color">#e6e6e6</item> 
+           <item  name="red" type="color">#EE1616</item> 
+             <item  name="Butterflyblue" type="color">#38ACEC</item> 
+   
+</resources>

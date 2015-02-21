@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/homescreen"
+    >
+
+
+
+
+     <Button
+         android:id="@+id/btnfindalawyer"
+         android:layout_width="355dp"
+         android:layout_height="58dp"
+         android:background="@null"
+
+         android:layout_centerHorizontal="true"
+         android:layout_marginLeft="10dp"
+         android:layout_marginTop="140dp" />
+     <Button
+            android:id="@+id/asklawyer"
+            android:layout_width="355dp"
+            android:layout_height="56dp"
+           android:background="@null"
+         android:layout_marginLeft="10dp"
+         android:layout_weight="0.71"
+         android:layout_marginTop="200dp" />
+
+        <Button
+            android:id="@+id/btnguidelegal"
+            android:layout_width="355dp"
+            android:layout_height="56dp"
+            android:background="@null"
+            android:layout_above="@+id/btnlegal"
+            android:layout_alignLeft="@+id/btnlegal"
+            android:layout_alignStart="@+id/btnlegal" />
+
+        <Button
+            android:id="@+id/btnlegal"
+            android:layout_width="355dp"
+            android:layout_height="56dp"
+            android:background="@null"
+            android:layout_above="@+id/btnemergency"
+            android:layout_alignLeft="@+id/btnfindalawyer"
+            android:layout_alignStart="@+id/btnfindalawyer"
+            android:layout_marginBottom="20dp" />
+
+
+
+
+        <Button
+            android:id="@+id/proof"
+            android:layout_width="76dp"
+            android:layout_height="73dp"
+            android:background="@null"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp">
+        </Button>
+
+    <Button
+        android:id="@+id/btnemergency"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+
+        android:background="@null"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp" />
+
+
+
+
+</RelativeLayout>

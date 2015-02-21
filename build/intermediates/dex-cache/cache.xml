@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/libs/quickblox-android-sdk-location-2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2b7d1c189112f137fb0487641a62736a85a68cca">
+        <dex dex="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/debug/quickblox-android-sdk-location-2.0-b3494af9d75330eb60ab8e47a5f5d5d8b204f2bc.jar" />
+    </item>
+    <item
+        jar="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/libs/quickblox-android-sdk-content-2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01d193eabb007a3f591aa1742136b24b219db7c7">
+        <dex dex="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/debug/quickblox-android-sdk-content-2.0-c769f8a7ec73a989c20883d5c8f56664d4042ffc.jar" />
+    </item>
+    <item
+        jar="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/debug/classes-cb7b9562fa95b9ee3bf7389e0dd042aecb90172a.jar" />
+    </item>
+    <item
+        jar="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/libs/quickblox-android-sdk-messages-2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="87087e10ce96ebea639efadef1590fbcee9cc678">
+        <dex dex="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/debug/quickblox-android-sdk-messages-2.0-001c1d124fc469fdcfdb842f6ad570875d9c0834.jar" />
+    </item>
+    <item
+        jar="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/libs/quickblox-android-sdk-videochat-webrtc-2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e8d012ace0e536ec0f5b0a5cb62427208baddd85">
+        <dex dex="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/debug/quickblox-android-sdk-videochat-webrtc-2.0-dde2e7c08f0db266a96ea3557b0f89a5ae587eaf.jar" />
+    </item>
+    <item
+        jar="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/libs/quickblox-android-sdk-ratings-2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9895ec6237bc7dcae2d8448ca1d44228ec920cf7">
+        <dex dex="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/debug/quickblox-android-sdk-ratings-2.0-559b64beef0e33a4e216e55e34628640a991b072.jar" />
+    </item>
+    <item
+        jar="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/libs/quickblox-android-sdk-core-2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d751698abbc01b7d4e49cbd104c509341130537c">
+        <dex dex="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/debug/quickblox-android-sdk-core-2.0-cb344567f9a2b4c806c86c7a26c8896c32c29186.jar" />
+    </item>
+    <item
+        jar="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/libs/quickblox-android-sdk-customobjects-2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="099bdb9e0e705195f74c7827c3275f79b6b86588">
+        <dex dex="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/debug/quickblox-android-sdk-customobjects-2.0-d1473c572d8b6af7dc571fe51380e5e5e0530820.jar" />
+    </item>
+    <item
+        jar="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.21.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0285ad8da812e92dda76ed5d0dcba05724c7911d">
+        <dex dex="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/debug/classes-60308c8f136208278ea0b880a0e3604ae838ca60.jar" />
+    </item>
+    <item
+        jar="/Users/jaicksninan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-a68f3ad6d99fb1edd5ca51c36a68e6b03d8aa68b.jar" />
+    </item>
+    <item
+        jar="/Users/jaicksninan/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.2/91c20388c9a45f62b5ed8fe0502bb76ff6251fc7/bolts-android-1.1.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
+        <dex dex="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.2-c9ea7aec41bf5d63eaeb642f75024471219e87ae.jar" />
+    </item>
+    <item
+        jar="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-fdf0d9458823e53081ab2a591e07454c6e70f8a6.jar" />
+    </item>
+    <item
+        jar="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/libs/quickblox-android-sdk-videochat-2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e01f03848188cef2b84f8b27c96a2d73c0bbf73e">
+        <dex dex="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/debug/quickblox-android-sdk-videochat-2.0-06de28ee41207056e00d915251bb785a4993fc47.jar" />
+    </item>
+    <item
+        jar="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/libs/quickblox-android-sdk-chat-2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="240e62cb5e7faa89a3f3e551ab843e57f5c6b602">
+        <dex dex="/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/debug/quickblox-android-sdk-chat-2.0-3d2eb80de747b48695e1638754db68ad16c14516.jar" />
+    </item>
+
+</items>

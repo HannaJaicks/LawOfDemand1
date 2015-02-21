@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whoareyou" >
+   
+
+    <Button
+        android:id="@+id/individual"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@layout/button_style"
+        android:textColor="@color/white"
+        android:layout_marginLeft="53dp"
+        android:layout_marginStart="53dp"
+        android:layout_alignTop="@+id/lawyer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:tag="Individual"
+        />
+
+    <Button
+        android:id="@+id/lawyer"
+        android:layout_width="120dp"
+        android:layout_height="57dp"
+        android:background="@layout/lawyer_button"
+        android:textColor="@color/white"
+        android:layout_marginRight="53dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginTop="191dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:clickable="true"
+        android:tag="Lawyer"
+        />
+
+</RelativeLayout>

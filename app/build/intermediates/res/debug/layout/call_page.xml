@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/file_report" >
+
+    <LinearLayout
+        android:id="@+id/lowerpart"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:background="@null"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <Button
+            android:id="@+id/btndialno"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="115dp"
+            android:layout_gravity="center"
+            android:background="@null" />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="135dp">
+
+    <Button
+        android:id="@+id/btnaccident"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="0.00"
+        android:background="@null"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/blue" />
+
+    <Button
+                android:id="@+id/btnArrest"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="0.00"
+                android:background="@null"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/blue"
+                />
+
+    <Button
+                android:id="@+id/btntraffic"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+              android:layout_weight="0.00"
+                android:background="@null"
+                android:textColor="@color/blue"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+</LinearLayout>
+
+
+
+    </LinearLayout>
+
+    </RelativeLayout><!-- From: file:/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/src/main/res/layout/call_page.xml -->

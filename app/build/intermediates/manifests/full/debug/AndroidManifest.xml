@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lawofdemand"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="com.example.lawofdemand.Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.lawofdemand.SplashPage" >
+        </activity>
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <activity android:name="com.example.lawofdemand.SignUpPage" >
+        </activity>
+        <activity android:name="com.example.lawofdemand.LoginPage" >
+        </activity>
+        <activity android:name="com.example.lawofdemand.Selection" >
+        </activity>
+        <activity android:name="com.example.lawofdemand.EmergencyInfo" >
+        </activity>
+        <activity android:name="com.example.lawofdemand.Sixth" >
+        </activity>
+        <activity android:name="com.example.lawofdemand.Seventh" >
+        </activity>
+        <activity android:name="com.example.lawofdemand.Eigth" >
+        </activity>
+        <activity android:name="com.example.lawofdemand.Nineth" >
+        </activity>
+        <activity android:name="com.example.lawofdemand.Tenth" >
+        </activity>
+        <activity android:name="com.example.lawofdemand.Eleventh" >
+        </activity>
+        <activity android:name="com.example.lawofdemand.PhotoDetails" >
+        </activity>
+        <activity android:name="com.example.lawofdemand.AudioDetails" >
+        </activity>
+        <activity android:name="com.example.lawofdemand.VideoDetails" >
+        </activity>
+        <activity android:name="com.example.lawofdemand.Case_options" >
+        </activity>
+        <activity
+            android:name="com.example.lawofdemand.LegalNews"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.lawofdemand.GuideLegal"
+            android:label="@string/title_activity_guide_legal" >
+        </activity>
+        <activity
+            android:name="com.example.lawofdemand.FindALawyer"
+            android:label="@string/title_activity_find_alawyer" >
+        </activity>
+        <activity
+            android:name="com.example.lawofdemand.LawyersDetailsDisplay"
+            android:label="@string/title_activity_lawyers_details_display" >
+        </activity>
+        <activity
+            android:name="com.example.lawofdemand.ChatActivity"
+            android:label="@string/title_activity_chat" >
+        </activity>
+        <activity
+            android:name="com.example.lawofdemand.Lawyer_details"
+            android:label="@string/title_activity_lawyer_details" >
+        </activity>
+    </application>
+
+</manifest>

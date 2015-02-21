@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/emergency_info_indi" >
+
+<LinearLayout 
+    android:id="@+id/details1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+         android:layout_below="@+id/info"
+         android:layout_marginTop="42dp"
+         android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/edtfirstname"
+        android:layout_width="170dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="@null"
+        android:layout_marginLeft="165dp">
+   
+        <requestFocus />
+    </EditText>
+
+   </LinearLayout>
+   <LinearLayout 
+    android:id="@+id/details2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+         android:layout_below="@+id/details1"
+         android:layout_marginTop="7dp"
+         android:orientation="horizontal">
+
+       <EditText
+        android:id="@+id/edtlastname"
+        android:layout_width="170dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="@null"
+           android:layout_marginLeft="165dp">
+
+        <requestFocus />
+    </EditText>
+
+   </LinearLayout>
+    <LinearLayout 
+    android:id="@+id/details3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+         android:layout_below="@+id/details2"
+         android:layout_marginTop="7dp"
+         android:orientation="horizontal">
+
+        <EditText
+        android:id="@+id/edtstate"
+        android:layout_width="170dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="@null"
+            android:layout_marginLeft="165dp">
+   
+        <requestFocus />
+    </EditText>
+
+   </LinearLayout>
+    <LinearLayout 
+    android:id="@+id/details4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+         android:layout_below="@+id/details3"
+         android:layout_marginTop="7dp"
+         android:orientation="horizontal">
+
+        <EditText
+        android:id="@+id/edtcell"
+        android:layout_width="170dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:background="@null"
+            android:layout_marginLeft="165dp">
+   
+        <requestFocus />
+    </EditText>
+    
+
+   </LinearLayout>
+    <LinearLayout
+    android:id="@+id/details5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_below="@+id/details4"
+         android:layout_marginTop="7dp"
+         android:orientation="horizontal">
+
+        <EditText
+        android:id="@+id/edthome"
+        android:layout_width="170dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:background="@null"
+            android:layout_marginLeft="165dp">
+
+        <requestFocus />
+    </EditText>
+
+
+   </LinearLayout>
+   <LinearLayout
+    android:id="@+id/details6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_below="@+id/details5"
+         android:layout_marginTop="7dp"
+         android:orientation="horizontal">
+
+       <EditText
+        android:id="@+id/edtbusiness"
+        android:layout_width="170dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:background="@null"
+           android:layout_marginLeft="165dp">
+   
+        <requestFocus />
+    </EditText>
+    
+
+   </LinearLayout>
+   <LinearLayout 
+    android:id="@+id/details7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+         android:layout_below="@+id/details6"
+         android:layout_marginTop="7dp"
+         android:orientation="horizontal">
+
+       <EditText
+        android:id="@+id/edtemail"
+        android:layout_width="170dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:background="@null"
+           android:layout_marginLeft="165dp"
+           android:autoText="false">
+   
+        <requestFocus />
+    </EditText>
+    
+
+   </LinearLayout>
+
+   <Button
+       android:id="@+id/btnsubmit"
+       android:layout_width="180dp"
+       android:layout_height="60dp"
+       android:background="@null"
+       android:textColor="@color/white"
+       android:layout_below="@+id/details7"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="30dp" />
+
+</RelativeLayout>

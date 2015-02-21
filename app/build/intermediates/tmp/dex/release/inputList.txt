@@ -1,0 +1,15 @@
+/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/classes/release
+/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/release/support-annotations-20.0.0-a68f3ad6d99fb1edd5ca51c36a68e6b03d8aa68b.jar
+/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/release/quickblox-android-sdk-location-2.0-b3494af9d75330eb60ab8e47a5f5d5d8b204f2bc.jar
+/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/release/quickblox-android-sdk-ratings-2.0-559b64beef0e33a4e216e55e34628640a991b072.jar
+/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/release/quickblox-android-sdk-content-2.0-c769f8a7ec73a989c20883d5c8f56664d4042ffc.jar
+/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/release/bolts-android-1.1.2-c9ea7aec41bf5d63eaeb642f75024471219e87ae.jar
+/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/release/quickblox-android-sdk-customobjects-2.0-d1473c572d8b6af7dc571fe51380e5e5e0530820.jar
+/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/release/quickblox-android-sdk-messages-2.0-001c1d124fc469fdcfdb842f6ad570875d9c0834.jar
+/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/release/internal_impl-20.0.0-fdf0d9458823e53081ab2a591e07454c6e70f8a6.jar
+/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/release/quickblox-android-sdk-videochat-2.0-06de28ee41207056e00d915251bb785a4993fc47.jar
+/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/release/quickblox-android-sdk-videochat-webrtc-2.0-dde2e7c08f0db266a96ea3557b0f89a5ae587eaf.jar
+/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/release/quickblox-android-sdk-core-2.0-cb344567f9a2b4c806c86c7a26c8896c32c29186.jar
+/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/release/classes-60308c8f136208278ea0b880a0e3604ae838ca60.jar
+/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/release/classes-cb7b9562fa95b9ee3bf7389e0dd042aecb90172a.jar
+/Users/jaicksninan/AndroidStudioProjects/LawOfDemand1/app/build/intermediates/pre-dexed/release/quickblox-android-sdk-chat-2.0-3d2eb80de747b48695e1638754db68ad16c14516.jar

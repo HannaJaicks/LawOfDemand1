@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LawOfDemand</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="connect_fb">CONNECT WITH FACEBOOK</string>
+    <string name="app_head">Law On Demand</string>
+    <string name="app_head1">Understanding Legal Issues</string>
+    <string name="app_head2">Legal News</string>
+    <string name="app_head3">Find A Lawyer</string>
+    <string name="app_back">Back </string>
+    <string name="sign_uplower">Sign Up</string>
+    <string name="signup_fb">SIGN UP WITH FACEBOOK</string>
+    <string name="sign_inlower">Sign In</string>
+    <string name="lawyer">Lawyer</string>
+    <string name="individual">Individual</string>
+    <string name="emergency">Emergency Contact Info</string>
+    <string name="texthead">Enter the contact details in case of Emergency</string>
+    <string name="firstname">First Name:</string>
+    <string name="lastname">Last Name:</string>
+    <string name="state">State:</string>
+    <string name="cellphone">Cell Phone:</string>
+    <string name="homephone">Home Phone:</string>
+    <string name="businessphone">Business Phone:</string>
+    <string name="email">Email:</string>
+    <string name="submit">Submit</string>
+    <string name="findlawyer">Find a Lawyer</string>
+    <string name="asklawyer">Ask a Lawyer</string>
+    <string name="guide">Guide to Legal Issues</string>
+    <string name="legalnews">Legal News</string>
+    <string name="emergencycase">EMERGENCY</string>
+    <string name="filereport">FILE A REPORT</string>
+    <string name="typesofemergency">Type of Emergency</string>
+    <string name="arrest">Arrest</string>
+    <string name="accident">Accident</string>
+    <string name="traffic">Traffic</string>
+    <string name="summary">Type a summary of what happened.(optional)</string>
+    <string name="contact">Contact My Emergency Address</string>
+    <string name="econtact">Contact another address</string>
+    <string name="addevidence">ADD EVIDENCE</string>
+    <string name="toolkit">Emergency Tool Kit</string>
+    <string name="almost">Almost Done !</string>
+    <string name="collect">Collect Video Evidence</string>
+    <string name="recordvideo">Record Video</string>
+    <string name="gallery">Gallery</string>
+    <string name="videoupload">Video Upload</string>
+    <string name="audioupload">Audio Upload</string>
+    <string name="photoupload">Photo Upload</string>
+    <string name="collectcam">Collect Photo Evidence</string>
+    <string name="collectaudio">Collect Audio Evidence</string>
+    <string name="takephoto">Take Photo</string>
+    <string name="rec">Rec</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_legal_news">LegalNews</string>
+    <string name="title_activity_guide_legal">GuideLegal</string>
+    <string name="title_activity_find_alawyer">FindALawyer</string>
+    <string name="title_activity_lawyers_details_display">LawyersDetailsDisplay</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_lawyer_details">Lawyer_details</string>
+    <string name="specialities">Choose specialities</string>
+    <string-array name="specialities">
+        <item>Administrative</item>
+        <item>Admiralty &amp; Maritime</item>
+        <item>Adoption</item>
+        <item>Agriculture</item>
+        <item>Alternative Dispute Resolution</item>
+        <item>Animal Bites</item>
+        <item>Antitrust</item>
+        <item>Asbestos Mesothelioma</item>
+        <item>Assault &amp; Battery -- Plaintiff</item>
+        <item>Auto Dealer Fraud</item>
+        <item>Aviation</item>
+        <item>Aviation &amp; Mass Transit Accidents</item>
+        <item>Bad Faith Insurance</item>
+        <item>Banking &amp; Finance</item>
+        <item>Bankruptcy</item>
+        <item>Business &amp; Commercial</item>
+        <item>Business Organizations</item>
+        <item>Car Accident</item>
+        <item>Child Custody</item>
+        <item>Child Support</item>
+        <item>Child Support</item>
+        <item>Class Actions</item>
+        <item>Collaborative</item>
+        <item>Collections</item>
+        <item>Communications &amp; Media</item>
+        <item>Constitutional</item>
+        <item>Construction</item>
+        <item>Consumer Protection</item>
+        <item>Contracts</item>
+        <item>Criminal Defense</item>
+        <item>DUI / DWI</item>
+        <item>Debtor-Creditor</item>
+        <item>Discrimination</item>
+        <item>Divorce</item>
+        <item>Drugs &amp; Medical Devices</item>
+        <item>Education</item>
+        <item>Elder Law</item>
+        <item>Eminent Domain</item>
+        <item>Employment</item>
+        <item>Employment Law -- Employer</item>
+        <item>Energy</item>
+        <item>Entertainment, Sports &amp; Leisure</item>
+        <item>Environmental</item>
+        <item>Estate Planning</item>
+        <item>Ethics &amp; Professional Responsibility</item>
+        <item>Family Law</item>
+        <item>Foreclosure &amp; Alternatives</item>
+        <item>Franchising</item>
+        <item>Gaming</item>
+        <item>Government Agencies &amp; Programs</item>
+        <item>Government Contracts</item>
+        <item>Health Care</item>
+        <item>Housing &amp; Construction Defects</item>
+        <item>Immigration</item>
+        <item>Insurance</item>
+        <item>Insurance Defense</item>
+        <item>Intellectual Property</item>
+        <item>International Law</item>
+        <item>Internet</item>
+        <item>Labor</item>
+        <item>Land Use &amp; Zoning</item>
+        <item>Landlord-Tenant</item>
+        <item>Legal Malpractice</item>
+        <item>Lemon Law</item>
+        <item>Litigation &amp; Appeals</item>
+        <item>Medical Malpractice</item>
+        <item>Mergers &amp; Acquisitions</item>
+        <item>Military</item>
+        <item>Motor Vehicle Defects</item>
+        <item>Natural Resources</item>
+        <item>Nursing Home Abuse</item>
+        <item>Patents</item>
+        <item>Personal Injury</item>
+        <item>Personal Injury -- Defense</item>
+        <item>Premises Liability</item>
+        <item>Probate &amp; Estate Administration</item>
+        <item>Products Liability</item>
+        <item>Professional Malpractice</item>
+        <item>Railroad Worker Injury-FELA</item>
+        <item>Real Estate</item>
+        <item>Science &amp; Technology</item>
+        <item>Securities</item>
+        <item>Sexual Abuse</item>
+        <item>Sexual Harassment</item>
+        <item>Social Security -- Disability</item>
+        <item>State, Local &amp; Municipal Law</item>
+        <item>Tax</item>
+        <item>Tax Increment Financing</item>
+        <item>Toxic Mold</item>
+        <item>Toxic Torts</item>
+        <item>Trademarks</item>
+        <item>Traffic Ticket</item>
+        <item>Transportation</item>
+        <item>Trusts</item>
+        <item>Whistleblower-Qui Tam</item>
+        <item>White Collar Crimes</item>
+        <item>Wills</item>
+        <item>Workers Compensation</item>
+        <item>Wrongful Death</item>
+    </string-array>
+    <string name="app_id">903142723039662</string>
+</resources>

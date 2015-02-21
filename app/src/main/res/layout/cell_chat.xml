@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+
+    <ImageView
+        android:id="@+id/photoImageView"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:textIsSelectable="false"
+        android:textSize="19pt"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:textSize="15pt"
+        android:layout_below="@+id/usernameTextView"
+        android:layout_alignLeft="@+id/usernameTextView"
+        android:layout_alignStart="@+id/usernameTextView" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:textSize="15pt"
+        android:layout_below="@+id/messageTextView"
+        android:layout_alignLeft="@+id/messageTextView"
+        android:layout_alignStart="@+id/messageTextView"
+        />
+
+
+</RelativeLayout>
+
